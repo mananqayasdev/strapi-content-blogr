@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_navigation_footer_menu_items",
+  "info": {
+    "displayName": "Footer Menu Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "menuName": {
+      "type": "string"
+    }
+  }
+}

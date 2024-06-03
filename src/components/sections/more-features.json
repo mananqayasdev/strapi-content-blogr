@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_more_features",
+  "info": {
+    "displayName": "More Features"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "moreFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.title-and-description"
+    }
+  }
+}

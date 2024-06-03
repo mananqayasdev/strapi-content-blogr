@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_headers",
+  "info": {
+    "displayName": "Header"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "menuLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.menu-items"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.button"
+    }
+  }
+}
