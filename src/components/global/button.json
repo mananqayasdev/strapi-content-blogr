@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_buttons",
+  "info": {
+    "displayName": "button"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "isPrimary",
+        "isOutlined",
+        "normal"
+      ]
+    }
+  }
+}

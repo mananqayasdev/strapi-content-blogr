@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_features",
+  "info": {
+    "displayName": "Features"
+  },
+  "options": {},
+  "attributes": {
+    "bgImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "feature": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.title-and-description"
+    }
+  }
+}

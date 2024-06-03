@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_abouts",
+  "info": {
+    "displayName": "About"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "contents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.title-and-description"
+    }
+  }
+}
